@@ -1,0 +1,15 @@
+package com.duplicate;
+
+public class Mainclass {
+	static void findDuplicates(String s) throws DupException{
+		
+	}
+	public static void main(String[] args){
+		try{
+		findDuplicates("geetha");
+	}catch(Exception e){
+		System.out.println("exception occured:"+e);
+	}
+	}
+
+}

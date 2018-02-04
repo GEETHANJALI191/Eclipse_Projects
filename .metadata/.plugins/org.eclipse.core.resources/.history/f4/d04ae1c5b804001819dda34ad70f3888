@@ -1,0 +1,9 @@
+package com.duplicate;
+
+public class DupException extends Exception{
+	
+	DupException(String s){
+		super(s);
+	}
+
+}

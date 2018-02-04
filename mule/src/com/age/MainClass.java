@@ -1,0 +1,21 @@
+package com.age;
+
+public class MainClass {
+	
+	static void findAge(int age) throws AgeExample{  
+	     if(age<18)  
+	      throw new AgeExample("age is less than 18");  
+	     else  
+	      System.out.println("eligible for vote");  
+	   }  
+	
+	public static void main(String[] args) {
+		try{
+			findAge(21);
+		}catch(Exception e){
+			System.out.println("exception occured:"+e);
+		}
+		
+	}
+
+}

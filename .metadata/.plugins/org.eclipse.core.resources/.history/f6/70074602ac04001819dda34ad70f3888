@@ -1,0 +1,10 @@
+package com.age;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		AgeExample a= new AgeExample();
+		
+	}
+
+}
